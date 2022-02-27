@@ -1,0 +1,35 @@
+.bg{
+	background: url('../images/bg3.jpg');
+	height: 750px;
+	position: relative;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+.form-container{
+	position: absolute;
+	top: 20vh;
+	right: 60vh;
+	background: #fff;
+	padding: 50px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px 5px #000;
+}
+
+.form-container1{
+	position: absolute;
+	top: 10vh;
+	right: 60vh;
+	background: #fff;
+	padding: 50px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px 5px #000;
+}
+
+@media only screen and (max-width: 678px){
+	.bg{
+		background-size: 300%;
+	}
+}
